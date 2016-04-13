@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization</string>
+    <string name="TangoError">"Tango Exception! Try again!"</string>
+    <string name="motiontrackingpermission">"Motion Tracking permission needed!"</string>
+</resources>
