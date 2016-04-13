@@ -22,6 +22,8 @@ Le client graphique en Qt transforme les paquets TCP reçus par le serveur par d
 Dans le dossier tango vous trouverez la grille d'occupation.
 Cette partie nécessite la tablette tango. Une fois l'adresse ip configurée, roscore lancé, vous devez lancer rosrun rviz rviz.
 C'est sur le visualisateur rviz que vous verrez la grille d'occupation que nous avons appelé map.
+Les .java se trouvent dans localization\src\main\java\com\github\ros_java\tango\localization.
+
 
 ## Execution :
 
