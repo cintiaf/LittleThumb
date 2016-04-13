@@ -1,17 +1,11 @@
-﻿LITTLE THUMB
+﻿# LITTLE THUMB
 
-
-
-
-Prérequis :
+## Prérequis :
 
 Installer ROS version Indigo pour le server ROS : http://wiki.ros.org/indigo/Installation/Ubuntu
 Installer Qt5 pour le client graphique : http://www.qt.io/
 
-
-
-
-Notes :
+## Notes :
 
 Dans le dossier catkin_ws vous trouverez la partie ROS du server.
 Cette partie permet la communication entre l'interface graphique client en Qt et le simulateur en Java.
@@ -26,18 +20,12 @@ Les fichier .srv du dossier catkin_ws\src\beginner_tutorials\srv correspondent a
 Le client graphique en Qt transforme les paquets TCP reçus par le serveur par des paquets ROS qui sont reçus par le simulateur Java.
 Ce dernier retourne les informations correspondantes.
 
-
-
-
-Execution :
+## Execution :
 
 Il faut dans un premier temps lancer ROS avec la commande roscore.
 Ensuite le serveur TCP, le client graphique et enfin le simulateur Java.
 
 Pour lancer le client graphique Qt : modifier l'adresse IP et le port dans le fichier mainwindow.cpp et lancer le fichier .pro.
-
-
-
 
 Exemple :
 
