@@ -1,4 +1,4 @@
-﻿# LITTLE THUMB
+﻿# Little Thumb
 
 ## Prérequis :
 
