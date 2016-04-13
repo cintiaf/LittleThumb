@@ -13,8 +13,7 @@ Cette partie permet la communication entre l'interface graphique client en Qt et
 Plus d'informations concernant les packages : Catkin Workspace : http://wiki.ros.org/fr/ROS/Tutorials/catkin/CreatingPackage
 
 Les sources se trouvent dans le dossier catkin_ws\src\beginner_tutorials\src.
-Les executables des liens symboliques du dossier catkin_ws se trouvent dans le dossier catkin_ws\devel\lib\beginner_tutorials.
-Ces liens symboliques facilitent les commandes.
+Les executables se trouvent dans le dossier catkin_ws\devel\lib\beginner_tutorials.
 Les fichier .srv du dossier catkin_ws\src\beginner_tutorials\srv correspondent aux structures des données envoyées.
 
 Le client graphique en Qt transforme les paquets TCP reçus par le serveur par des paquets ROS qui sont reçus par le simulateur Java.
