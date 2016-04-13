@@ -1,0 +1,8 @@
+Sources/catkin_ws/.catkin_workspace
+Sources/catkin_ws/clientGraphic
+Sources/catkin_ws/clientJava
+Sources/catkin_ws/server
+Sources/catkin_ws/src/CMakeLists.txt
+Sources/tango/.gradle/
+Sources/tango/.idea/
+Sources/tango/.svn/
