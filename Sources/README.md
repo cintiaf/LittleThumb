@@ -16,8 +16,12 @@ Les sources se trouvent dans le dossier catkin_ws\src\beginner_tutorials\src.
 Les executables se trouvent dans le dossier catkin_ws\devel\lib\beginner_tutorials.
 Les fichier .srv du dossier catkin_ws\src\beginner_tutorials\srv correspondent aux structures des données envoyées.
 
-Le client graphique en Qt transforme les paquets TCP reçus par le serveur par des paquets ROS qui sont reçus par le simulateur Java.
-Ce dernier retourne les informations correspondantes.
+Dans le dossier robotController vous trouverez le client graphique.
+Le client graphique en Qt transforme les paquets TCP reçus par le serveur par des paquets ROS qui sont reçus par le simulateur Java qui retourne les informations correspondantes.
+
+Dans le dossier tango vous trouverez la grille d'occupation.
+Cette partie nécessite la tablette tango. Une fois l'adresse ip configurée, roscore lancé, vous devez lancer rosrun rviz rviz.
+C'est sur le visualisateur rviz que vous verrez la grille d'occupation que nous avons appelé map.
 
 ## Execution :
 
